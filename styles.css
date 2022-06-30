@@ -29,7 +29,6 @@ body {
 }
 
 #background {
-  
   background-size: 200px 40px;
   background-repeat: no-repeat;
 }
@@ -42,7 +41,7 @@ body {
   color: #ff6b00;
   width: 327px;
   height: 80px;
-  font-family: 'Create Round' serif;
+  font-family: 'Create Round' sans-serif;
   font-size: 50px;
   font-weight: 400px;
   line-height: 64px;
