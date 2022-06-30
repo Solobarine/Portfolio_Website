@@ -37,17 +37,17 @@ body {
   padding-right: 10px;
 }
 
-#greeting{
+#greeting {
   color: #ff6b00;
   width: 327px;
   height: 80px;
-  font-family: 'Create Round' Regular 400;
+  font-family: 'Create Round' sans-serif;
   font-size: 50px;
   font-weight: 400px;
   line-height: 64px;
 }
 
-#profession{
+#profession {
   color: white;
   width: 327px;
   height: 20px;
@@ -68,7 +68,7 @@ body {
   line-height: 24px;
 }
 
-#image_div{
+#image_div {
   display: flex;
   width: 100px;
   background: rgb(0,0,0);
@@ -83,7 +83,7 @@ body {
 }
 
 #button_2 {
-  font-family: 'Inter',light 300;
+  font-family: 'Inter', serif;
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
@@ -100,7 +100,7 @@ body {
   border-color: #802d0d;
 }
 
-#button_2:active{
+#button_2:active {
   color: #fff;
   background-color: #802d0d;
   border: none;
