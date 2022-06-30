@@ -3,7 +3,7 @@ body {
   position: absolute;
   width: 200px;
   height: 150px;
-  left: 0px;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -17,7 +17,6 @@ body {
   position: absolute;
   width: 327px;
   height: 38px;
-  display: flex;
   left: 0;
   top: 0;
 }
@@ -42,7 +41,7 @@ body {
   color: #ff6b00;
   width: 327px;
   height: 80px;
-  font-family: 'Create Round';
+  font-family: 'Create Round' Regular 400;
   font-size: 50px;
   font-weight: 400px;
   line-height: 64px;
@@ -53,7 +52,7 @@ body {
   width: 327px;
   height: 20px;
   left: 10px;
-  font-family: 'Roboto';
+  font-family: 'Roboto',Roboto thin;
   font-style: normal;
   font-size: 24px;
   font-weight: 700px;
@@ -72,7 +71,7 @@ body {
 #image_div{
   display: flex;
   width: 100px;
-  background:rgb(0,0,0);
+  background: rgb(0,0,0);
   padding: 10px;
 }
 
@@ -84,13 +83,13 @@ body {
 }
 
 #button_2 {
-  font-family: 'Inter';
+  font-family: 'Inter',light 300;
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
   color: #fff;
-  background-color:#802d0d;
+  background-color: #802d0d;
   border: none;
 }
 
@@ -103,12 +102,12 @@ body {
 
 #button_2:active{
   color: #fff;
-  background-color:#802d0d;
+  background-color: #802d0d;
   border: none;
 }
 
 #button_2.disabled {
-  color: #00000;
+  color: black;
   background-color: #fff;
   cursor: not-allowed;
   opacity: 0.6;
