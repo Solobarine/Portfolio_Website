@@ -28,7 +28,8 @@ body {
   top: 0;
 }
 
-#background { 
+#background {
+  
   background-size: 200px 40px;
   background-repeat: no-repeat;
 }
@@ -41,7 +42,7 @@ body {
   color: #ff6b00;
   width: 327px;
   height: 80px;
-  font-family: 'Create Round' sans-serif;
+  font-family: 'Create Round' serif;
   font-size: 50px;
   font-weight: 400px;
   line-height: 64px;
@@ -52,7 +53,7 @@ body {
   width: 327px;
   height: 20px;
   left: 10px;
-  font-family: 'Roboto',Roboto thin;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 24px;
   font-weight: 700px;
@@ -71,7 +72,7 @@ body {
 #image_div {
   display: flex;
   width: 100px;
-  background: rgb(0,0,0);
+  background: rgb(0, 0, 0);
   padding: 10px;
 }
 
@@ -79,7 +80,7 @@ body {
   display: block;
   width: 15px;
   margin: 8px;
-  top: 0px;
+  top: 0;
 }
 
 #button_2 {
@@ -94,7 +95,7 @@ body {
 }
 
 #button_2:hover {
-  background-color:#f2ce72;
+  background-color: #f2ce72;
   color: #f55800;
   border: 4px;
   border-color: #802d0d;
