@@ -10,6 +10,7 @@ body {
   padding: 120px 24px;
   gap: 12px;
 }
+
 .top_bar {
   display: flex;
   background-color: grey;
@@ -17,22 +18,26 @@ body {
   width: 327px;
   height: 38px;
   display: flex;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
+
 #nav {
   width: 400px;
   height: 92px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
+
 #background { 
   background-size: 200px 40px;
   background-repeat: no-repeat;
 }
+
 #intro {
   padding-right: 10px;
 }
+
 #greeting{
   color: #ff6b00;
   width: 327px;
@@ -42,6 +47,7 @@ body {
   font-weight: 400px;
   line-height: 64px;
 }
+
 #profession{
   color: white;
   width: 327px;
@@ -53,6 +59,7 @@ body {
   font-weight: 700px;
   line-height: 32px;
 }
+
 .description {
   color: white;
   width: 327px;
@@ -61,42 +68,48 @@ body {
   font-weight: 400px;
   line-height: 24px;
 }
+
 #image_div{
   display: flex;
   width: 100px;
   background:rgb(0,0,0);
   padding: 10px;
 }
+
 #image_div > img {
   display: block;
   width: 15px;
   margin: 8px;
   top: 0px;
 }
+
 #button_2 {
   font-family: 'Inter';
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   background-color:#802d0d;
   border: none;
 }
+
 #button_2:hover {
   background-color:#f2ce72;
   color: #f55800;
   border: 4px;
   border-color: #802d0d;
 }
+
 #button_2:active{
-  color: #ffffff;
+  color: #fff;
   background-color:#802d0d;
   border: none;
 }
+
 #button_2.disabled {
   color: #00000;
-  background-color: #ffffff;
+  background-color: #fff;
   cursor: not-allowed;
   opacity: 0.6;
 }
