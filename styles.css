@@ -11,9 +11,8 @@ body {
   padding: 120px 24px;
   height: 590px;
   width: 375px;
-  top: 120px;
   gap: 12px;
-  top: 92px;
+  top: 92px
   left: 0;
 }
 
@@ -45,7 +44,7 @@ body {
 }
 
 #my_job {
-  font-family: 'Roboto, sans-serif';
+  font-family: 'Roboto', sans-serif';
   font-style: 'normal';
   font-weight: 700;
   font-size: 24px;
@@ -53,6 +52,7 @@ body {
   top: 12px;
   color: #fff5e1;
 }
+
 #description {
   display: inline;
   top: 256px;
@@ -80,9 +80,8 @@ body {
   height: 40px;
   top: 430px;
   left: 24px;
-  
-}
 
+}
 .social {
   width: 20px;
   height: 20px;
