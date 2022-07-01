@@ -26,7 +26,7 @@ body {
 
 #greetings {
   font-family: 'Crete Round', sans-serif;
-  font-style: 'normal';
+  font-style: normal;
   font-weight: 400px;
   font-size: 50px;
   line-height: 64px;
@@ -45,7 +45,7 @@ body {
 
 #my_job {
   font-family: 'Roboto', sans-serif';
-  font-style: 'normal';
+  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -63,7 +63,7 @@ body {
 
 #ability {
   font-family: 'Poppins', serif;
-  font-style: 'normal';
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
