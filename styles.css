@@ -1,0 +1,89 @@
+body {
+  background-image: url(/Image/background.png);
+  background-repeat: no-repeat;
+  background-size: 375px 590px;
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  height: 590px;
+  width: 375px;
+  gap: 12px;
+  top: 92px;
+  left: 0;
+}
+
+#intro {
+  display: inline;
+  top: 120px;
+  width: 327px;
+  height: 124px;
+  bottom: 500px;
+}
+
+#greetings {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 50px;
+  line-height: 64px;
+  color: #ff6b00;
+  top: 120px;
+  letter-spacing: 0.37px;
+}
+
+#job {
+  display: inline;
+  top: 12px;
+  gap: 24px;
+  width: 375px;
+  height: 27px;
+}
+
+#my_job {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  top: 12px;
+  color: #fff5e1;
+}
+
+#description {
+  display: inline;
+  top: 256px;
+  gap: 24px;
+  width: 327px;
+  height: 123px;
+}
+
+#ability {
+  font-family: 'Poppins', serif;
+  font-style: 'normal';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 327px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  top: 430px;
+  left: 24px;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
