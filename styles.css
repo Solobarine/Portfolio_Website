@@ -44,7 +44,7 @@ body {
 }
 
 #my_job {
-  font-family: 'Roboto', sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -62,7 +62,7 @@ body {
 }
 
 #ability {
-  font-family: 'Poppins, serif;
+  font-family: 'Poppins', serif;
   font-style: 'normal';
   font-weight: 400;
   font-size: 16px;
@@ -80,8 +80,8 @@ body {
   height: 40px;
   top: 430px;
   left: 24px;
-
 }
+
 .social {
   width: 20px;
   height: 20px;
