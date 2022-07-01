@@ -1,19 +1,17 @@
-body {
-  background-image: url(/Image/background.png);
-  background-repeat: no-repeat;
-  background-size: 375px 590px;
-}
-
 #headline {
+background-image: url(/Image/background.png);
+  background-repeat: no-repeat;
+  background-size: 375px 682px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
-  height: 590px;
+  height: 682px;
   width: 375px;
   gap: 12px;
   top: 92px;
   left: 0;
+  display: inline-block;
 }
 
 #intro {
@@ -86,4 +84,79 @@ body {
   width: 20px;
   height: 20px;
   margin: 10px;
+}
+
+#recent {
+  display: inline-block;
+  width: 375px;
+  height: 3455px;
+  top: 682px;
+  gap: 80px;
+}
+
+#title {
+ width: 327px;
+ height: 107px;
+}
+
+#stories {
+  width: 327px;
+  height: 36px;
+}
+
+#caption_img {
+  width: 327px;
+  height: 237px;
+  left: 24px;
+}
+
+#about_section {
+  background-image: url(/Image/about_me.png);
+  background-repeat: no-repeat;
+}
+
+#ment {
+  font-family: 'Crete Round', sans-serif;
+  font-style: 'normal';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.36;
+  color: #ff6b00;
+  padding: 120px 24px;
+}
+#button {
+  width: 124px;
+  height: 48px;
+  color: white;
+  background-color: #ff6b00;
+  border: 0;
+  transition-duration: 0.6s;
+  padding: 12px;
+  top: 259px;
+  
+}
+
+#button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  padding: 12px;
+  color: #f55800;
+}
+
+#button:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+#button.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+#button:enabled {
+  background: #f55800;
+  color: #fff;
 }
