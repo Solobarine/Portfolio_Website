@@ -101,15 +101,15 @@
 }
 
 #title {
- width: 327px;
- height: 83px;
- font-family: 'Crete Round', sans-serif;
- font-weight: 400;
- font-size: 40px;
- line-height: 52px;
- display: flex;
- align-items: center;
- color: #1c1a19;
+  width: 327px;
+  height: 83px;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
 }
 
 .pic_div {
@@ -303,7 +303,7 @@
 .buttons {
   width: 327px;
   height: 40px;
-  font-family: 'Inter, sans-serif';
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
