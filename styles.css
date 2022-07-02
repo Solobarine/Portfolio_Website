@@ -4,12 +4,17 @@ body {
   overflow-x: hidden;
 }
 
+html {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
 #headline {
   background-image: url(/Image/background.png);
   background-repeat: no-repeat;
-  background-size: 375px 500px;
+  background-size: 375px 682px;
   display: flex;
-  flex-basis: 100%;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
@@ -23,9 +28,10 @@ body {
 #intro {
   display: inline;
   top: 120px;
-  width: 100%;
+  width: 327px;
   height: 124px;
   bottom: 500px;
+  position: static;
 }
 
 #greetings {
@@ -37,6 +43,7 @@ body {
   color: #ff6b00;
   top: 120px;
   letter-spacing: 0.37px;
+  word-wrap: break-word;
 }
 
 #job {
@@ -45,6 +52,7 @@ body {
   gap: 24px;
   width: 375px;
   height: 27px;
+  position: static;
 }
 
 #my_job {
@@ -63,6 +71,7 @@ body {
   gap: 24px;
   width: 375px;
   height: 123px;
+  
 }
 
 #ability {
