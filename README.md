@@ -1,5 +1,5 @@
 # Portfolio Website
-A simple Portfolio Website
+A Fairly Advanced Portfolio Website
 ## Built With
 * HTML
 * CSS
