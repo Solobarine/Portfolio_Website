@@ -1,10 +1,10 @@
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
   overflow-x: hidden;
- }
+}
 
 #header {
   width: 350px;
@@ -639,10 +639,6 @@ hr {
 .inputs {
   outline: none;
   background: transparent;
-}
-
-#text {
-  
 }
 
 #click-button {
