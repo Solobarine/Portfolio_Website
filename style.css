@@ -456,143 +456,247 @@ hr {
 }
 
 #skill {
-    width: 350px;
-    height: 1241.46px;
-    display: flex;
-    flex-direction: column;
-    background: #1c1a19;
+  width: 350px;
+  height: 1241.46px;
+  display: flex;
+  flex-direction: column;
+  background: #1c1a19;
 }
 
 #div1 {
-    width: 225px;
-    height: 281px;
-    margin: 120px 64.77px 0 ;
-    color: #fff;
+  width: 225px;
+  height: 281px;
+  margin: 120px 64.77px 0 ;
+  color: #fff;
 }
 
 #language {
-    width: 225px;
-    height: 40px;
-    text-align: center;
-    font-family: 'InaiMathi', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    list-style: url(./image/Rectangle1.png);
+  width: 225px;
+  height: 40px;
+  text-align: center;
+  font-family: 'InaiMathi', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  list-style: url(./image/Rectangle1.png);
 }
 
 #l_contents {
-    width: 186px;
-    top: 0;
-    height: 241px;
-    margin: 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 186px;
+  top: 0;
+  height: 241px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .l_c {
-    width: 114px;
-    height: 48px;
-    column-gap: 12px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 43px;
-    list-style: none;
-    text-align: center;
-    margin: 0 35px;
+  width: 114px;
+  height: 48px;
+  column-gap: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+  text-align: center;
+  margin: 0 35px;
 }
 
 .list {
-    margin: 6px;
+  margin: 6px;
 }
+
 #div2 {
-    width: 281px;
-    height: 336px;
-    margin: 60px 36px 0;
-    color: #fff;
+  width: 281px;
+  height: 336px;
+  margin: 60px 36px 0;
+  color: #fff;
 }
 
 #frame {
-    width: 281px;
-    height: 30px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    list-style: url(./image/Rectangle2.png);
+  width: 281px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  list-style: url(./image/Rectangle2.png);
 }
 
 #f_contents {
-    width: 186px;
-    top: 0;
-    height: 296px;
-    margin: 0 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 186px;
+  top: 0;
+  height: 296px;
+  margin: 0 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .f_c {
-    width: 114px;
-    height: 48px;
-    column-gap: 12px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 43px;
-    list-style: none;
-    text-align: center;
-    margin: 0 35px;
+  width: 114px;
+  height: 48px;
+  column-gap: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+  text-align: center;
+  margin: 0 35px;
 }
 
 .li {
-    margin: 6px 0;
+  margin: 6px 0;
 }
 
 #div3 {
-    width: 169px;
-    height: 336px;
-    margin: 60px 95px 0;
-    color: #fff;
+  width: 169px;
+  height: 336px;
+  margin: 60px 95px 0;
+  color: #fff;
 }
 
 #skills {
-    width: 169px;
-    height: 40px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    list-style: url(./image/Rectangle3.png);
+  width: 169px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  list-style: url(./image/Rectangle3.png);
 }
 
 #s_contents {
-    width: 138px;
-    top: 0;
-    height: 296px;
-    margin: 0 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 138px;
+  top: 0;
+  height: 296px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .s_c {
-    width: 114px;
-    height: 48px;
-    column-gap: 12px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 43px;
-    list-style: none;
-    text-align: center;
-    margin: 0 12px;
+  width: 114px;
+  height: 48px;
+  column-gap: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+  text-align: center;
+  margin: 0 12px;
 }
 
 .lis {
-    margin: 6px;
+  margin: 6px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  height: 844px;
+  background: cyan;
+}
+
+#para {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin: 0 16px 0 16px;
+}
+
+#pure_div {
+  width: 350px;
+  height: 25px;
+  background: transparent;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+}
+
+.value {
+  width: 75%;
+  height: 32px;
+  align-items: center;
+  margin-top: -20px;
+}
+
+#text {
+  width: 75%;
+  height: 114px;
+  background: #fbf8f7;
+}
+
+.inputs {
+  outline: none;
+  background: transparent;
+}
+
+#text {
+  background: transparent;
+}
+
+#click-button {
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+#click-button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  padding: 12px;
+  color: #f55800;
+}
+
+#click-button:active {
+  background: #e05304;
+  color: #f4f1f0;
+  width: 124px;
+  height: 48px;
+}
+
+#click-button.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+#click-button:enabled {
+  background: #f55800;
+  color: #fff;
+  width: 124px;
+  height: 48px;
 }

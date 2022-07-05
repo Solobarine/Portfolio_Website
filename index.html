@@ -171,22 +171,15 @@
      
         <footer>
             <section id="contact">
-                <p>I'm always interestedin hearing about new projects, so if you'd like to chat please get in.</p>
-                <form action="https://formspree.io/f/{form_id}" method="get" accept-charset="utf-8">
-                    <input type="text" placeholder="Enter Full Name"/>
-                    <input type="email" placeholder="Enter Email"/>
-                    <input type="text" placeholder="Enter Message"/>
-                    <button type="submit">Get in touch</button>
+                <p id="para">I'm always interested in hearing about new projects, so if you'd like to chat please get in.</p>
+                <div id="pure_div"></div>
+                <form id="form" action="https://formspree.io/f/{form_id}" method="get" accept-charset="utf-8">
+                    <input class="value inputs" type="text" placeholder="Enter Full Name" required/>
+                    <input class="value inputs" type="email" placeholder="Enter Email"
+                    required/>
+                    <textarea class="inputs" id="text" placeholder="Enter Message" required></textarea>
+                    <button id="click-button" type="submit">Get in touch</button>
                 </form>
-            </section>
-            <section id="social_page">
-                <ul>
-                    <li id="social_site"><a href="#"><img src="#" alt="Github handle" width="#" height="#"></a></li>
-                    <li id="social_site"><a href="#"><img src="#" alt="LinkedIn handle" width="#" height="#"></a></li>
-                    <li id="social_site"><a href="#"><img src="#" alt="Angel Website" width="#" height="#"></a></li>
-                    <li id="social_site"><a href="#"><img src="#" alt="Twitter handle" width="#" height="#"></a></li>
-                    <li id="social_site"><a href="#"><img src="#" alt="Microverse Website" width="#" height="#"></a></li>
-                </ul>
             </section>
         </footer>
     </body>
