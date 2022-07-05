@@ -227,7 +227,7 @@ hr {
   align-items: center;
   padding: 0;
   margin-bottom: 20px;
-  margin-left: 24p;
+  margin-left: 24px;
 }
 
 .boot {
@@ -310,7 +310,6 @@ hr {
   color: white;
   margin: 24px 24px 40px 24px;
   word-wrap: break-word;
-  
 }
 
 #a_button {
@@ -392,7 +391,7 @@ hr {
   border: none;
 }
 
-.buttons: hover {
+.buttons:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   padding: 12px;
@@ -415,7 +414,6 @@ hr {
   cursor: not-allowed;
   background: #f4f1f0;
   color: #5b5957;
-  cursor: pointer;
 }
 
 .buttons:enabled {
@@ -425,6 +423,7 @@ hr {
   height: 48px;
   cursor: pointer;
 }
+
 #a_button {
   margin-top: 75px;
 }
@@ -655,7 +654,6 @@ hr {
   border: 1px solid #f55800;
   padding: 12px;
   color: #f55800;
-  cursor: pointer;
   text-align: center;
 }
 
@@ -664,7 +662,6 @@ hr {
   color: #f4f1f0;
   width: 124px;
   height: 48px;
-  cursor: pointer;
 }
 
 .click.disabled {
@@ -672,7 +669,6 @@ hr {
   cursor: not-allowed;
   background: #f4f1f0;
   color: #5b5957;
-  cursor: pointer;
 }
 
 .click-button:enabled {
@@ -680,5 +676,4 @@ hr {
   color: #fff;
   width: 124px;
   height: 48px;
-  cursor: pointer;
 }
