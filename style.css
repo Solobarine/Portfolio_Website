@@ -1,14 +1,18 @@
-html, body {
+html {
     overflow-x: hidden;
 }
 
+body {
+  overflow-x: hidden;
+ }
+
 #header {
-    width: 350px;
-    height: 40px;
+  width: 350px;
+  height: 40px;
 }
 
 #nav_tag {
-    width: 350px;
+  width: 350px;
 }
 
 #nav-name {
@@ -68,7 +72,7 @@ html, body {
   margin: 24px;
   width: 280px;
   height: 60px;
- font-family: 'Poppins', serif;
+  font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -95,15 +99,16 @@ html, body {
 }
 
 .my_recent {
-    width: 350px;
-    height: 200px;
-    margin-top: auto;
+  width: 350px;
+  height: 200px;
+  margin-top: auto;
 }
 
 #recent {
-    width: 350px;
-    height: 586px;
+  width: 350px;
+  height: 586px;
 }
+
 #recent_works {
   display: block;
   width: 350px;
@@ -114,12 +119,12 @@ html, body {
 }
 
 hr {
-    border: 2px solid #000;
+  border: 2px solid #000;
 }
 
 #prim {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #stories {
@@ -135,9 +140,9 @@ hr {
 }
 
 #summary {
-    width: 327px;
-    height: 147px;
-    margin: 60px 24px 0 24px;
+  width: 327px;
+  height: 147px;
+  margin: 60px 24px 0 24px;
 }
 
 #title {
@@ -154,8 +159,8 @@ hr {
 }
 
 #line {
-    background: #1c1a19;
-    margin-top: 50px;
+  background: #1c1a19;
+  margin-top: 50px;
 }
 
 #caption_img {
@@ -165,10 +170,9 @@ hr {
 }
 
 #grid {
-    display: grid;
-    grid-gap: 55px;
+  display: grid;
+  grid-gap: 55px;
 }
-
 
 .pic_div {
   width: 350px;
@@ -272,23 +276,6 @@ hr {
   margin: 0;
 }
 
-#stories {
-  width: 327px;
-  height: 36px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #091e42;
-}
-
-#caption_img {
-  width: 327px;
-  height: 237px;
-  left: 24px;
-}
-
 #about_section {
   width: 350px;
   height: 383px;
@@ -349,9 +336,9 @@ hr {
 }
 
 #bar > div {
-    margin: 10px;
-    border: 1px solid #000;
-    justify-content: flex-end;
+  margin: 10px;
+  border: 1px solid #000;
+  justify-content: flex-end;
 }
 
 #css {
@@ -466,7 +453,7 @@ hr {
 #div1 {
   width: 225px;
   height: 281px;
-  margin: 120px 64.77px 0 ;
+  margin: 120px 64.77px 0;
   color: #fff;
 }
 
@@ -646,7 +633,7 @@ hr {
 #text {
   width: 75%;
   height: 114px;
-  background: #fbf8f7;
+  background: transparent;
 }
 
 .inputs {
@@ -655,7 +642,7 @@ hr {
 }
 
 #text {
-  background: transparent;
+  
 }
 
 #click-button {
