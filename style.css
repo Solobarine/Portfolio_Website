@@ -308,23 +308,16 @@ hr {
   font-size: 16px;
   line-height: 24px;
   color: white;
-  margin: 24px 24px 0 24px;
+  margin: 24px 24px 40px 24px;
   word-wrap: break-word;
+  
 }
 
-#about_button {
-  width: 161px;
-  height: 48px;
+#a_button {
   gap: 10px;
   left: 24px;
-  top: 395px;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-size: 17px;
-  margin: 60px 24px;
-  color: #fff;
-  border: none;
+  top: 395px
+  margin-left: 24px;
 }
 
 #bar {
@@ -385,49 +378,6 @@ hr {
   border: 1px solid #000;
 }
 
-#button {
-  width: 124px;
-  height: 48px;
-  color: white;
-  background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  border: 0;
-  transition-duration: 0.6s;
-  padding: 12px;
-  top: 259px;
-  margin: 12px 24px 0 24px;
-}
-
-#button:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  padding: 12px;
-  color: #f55800;
-}
-
-#button:active {
-  background: #e05304;
-  color: #f4f1f0;
-  width: 124px;
-  height: 48px;
-}
-
-#button.disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-  background: #f4f1f0;
-  color: #5b5957;
-}
-
-#button:enabled {
-  background: #f55800;
-  color: #fff;
-  width: 124px;
-  height: 48px;
-}
-
 .buttons {
   width: 350px;
   height: 40px;
@@ -440,6 +390,43 @@ hr {
   margin: 0;
   justify-content: flex-end;
   border: none;
+}
+
+.buttons: hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  padding: 12px;
+  color: #f55800;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttons:active {
+  background: #e05304;
+  color: #f4f1f0;
+  width: 350px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.buttons.disabled {
+  width: 350px;
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #f4f1f0;
+  color: #5b5957;
+  cursor: pointer;
+}
+
+.buttons:enabled {
+  background: #f55800;
+  color: #fff;
+  width: 350px;
+  height: 48px;
+  cursor: pointer;
+}
+#a_button {
+  margin-top: 75px;
 }
 
 #skill {
@@ -641,7 +628,14 @@ hr {
   background: transparent;
 }
 
-#click-button {
+#div_7 {
+  width: 160px;
+  height: 20px;
+  background: transparent;
+  display: block;
+}
+
+.click {
   width: 131px;
   height: 48px;
   background: #ff6b00;
@@ -656,30 +650,35 @@ hr {
   letter-spacing: 0.03em;
 }
 
-#click-button:hover {
+.click:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   padding: 12px;
   color: #f55800;
+  cursor: pointer;
+  text-align: center;
 }
 
-#click-button:active {
+.click:active {
   background: #e05304;
   color: #f4f1f0;
   width: 124px;
   height: 48px;
+  cursor: pointer;
 }
 
-#click-button.disabled {
+.click.disabled {
   opacity: 0.6;
   cursor: not-allowed;
   background: #f4f1f0;
   color: #5b5957;
+  cursor: pointer;
 }
 
-#click-button:enabled {
+.click-button:enabled {
   background: #f55800;
   color: #fff;
   width: 124px;
   height: 48px;
+  cursor: pointer;
 }
