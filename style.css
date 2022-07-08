@@ -611,6 +611,7 @@ hr {
   height: 32px;
   align-items: center;
   margin-top: -20px;
+  border: none;
 }
 
 #text {
@@ -622,6 +623,7 @@ hr {
 .inputs {
   outline: none;
   background: transparent;
+  border: none;
 }
 
 #div_7 {
@@ -673,4 +675,12 @@ hr {
   color: #fff;
   width: 124px;
   height: 48px;
+}
+
+#bottom_container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
 }
