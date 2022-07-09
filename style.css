@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  margin:0;
   overflow-x: hidden;
 }
 
@@ -683,4 +684,8 @@ hr {
   flex-direction: row;
   margin-left: 60px;
   column-gap: 10px;
+}
+
+footer {
+  border-top: 2px solid;
 }
